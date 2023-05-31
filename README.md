@@ -10,9 +10,10 @@
 <!-- Add technology icons here -->
 <!-- Replace the placeholder URLs with the actual icons for the technologies you used -->
 
-[<img src="technology_icon_url" alt="Technology">](https://technology_link)
-[<img src="technology_icon_url" alt="Technology">](https://technology_link)
-[<img src="technology_icon_url" alt="Technology">](https://technology_link)
+[<img src="https://img.icons8.com/color/48/000000/nodejs.png" alt="Node.js">](https://nodejs.org/)
+[<img src="https://img.icons8.com/color/48/000000/javascript.png" alt="JavaScript">](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[<img src="https://img.icons8.com/color/48/000000/mongodb.png" alt="MongoDB">](https://www.mongodb.com/)
+[<img src="https://img.icons8.com/color/48/000000/ejs.png" alt="EJS">](https://ejs.co/)
 
 ## Description
 
