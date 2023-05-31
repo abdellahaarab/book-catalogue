@@ -1,6 +1,23 @@
-# Book Management App
+# Book Catalogue
 
-This is a book management application built with Node.js, Express, and MongoDB.
+[![Project Image](https://user-images.githubusercontent.com/33935506/33653545-0f6d5828-da76-11e7-8a3c-a72bc732ad4f.PNG)](https://github.com/abdellahaarab/book-catalogue)
+
+
+> A web application for managing a book catalogue.
+
+## Technologies Used
+
+<!-- Add technology icons here -->
+<!-- Replace the placeholder URLs with the actual icons for the technologies you used -->
+
+[<img src="technology_icon_url" alt="Technology">](https://technology_link)
+[<img src="technology_icon_url" alt="Technology">](https://technology_link)
+[<img src="technology_icon_url" alt="Technology">](https://technology_link)
+
+## Description
+
+Add a brief description of your project here. Mention its features, purpose, or any other relevant information.
+
 
 ## Features
 
@@ -13,8 +30,8 @@ This is a book management application built with Node.js, Express, and MongoDB.
 ## Installation
 
 1. Make sure you have Node.js installed on your computer.
-2. Clone this repository: `git clone <repository_url>`
-3. Navigate to the project directory: `cd book-management-app`
+2. Clone this repository: `git clone https://github.com/abdellahaarab/book-catalogue.git`
+3. Navigate to the project directory: `cd book-catalogue`
 4. Install dependencies: `npm install`
 
 ## Usage
@@ -30,6 +47,11 @@ This is a book management application built with Node.js, Express, and MongoDB.
 - Mongoose
 - EJS
 - Bootstrap
+
+## Authors
+
+- [Abdellah Aarab](https://github.com/abdellahaarab)
+
 
 ## Contributing
 
