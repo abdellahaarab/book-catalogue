@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Book Details</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+  <div class="container">
+    <h1 class="mt-4">Book Details</h1>
+    <% if (book) { %>
+      <h2 class="mt-4"><%= book.title %></h2>
+      <p>Author: <%= book.author %></p>
+      <p>Description: <%= book.description %></p>
+      <p>Publication Date: <%= book.publicationDate %></p>
+      <p>Page Count: <%= book.pageCount %></p>
+      <a href="/books/<%= book._id %>/edit" class="btn btn-primary">Edit</a>
+      <form action="/books/<%= book._id %>?_method=DELETE" method="POST" class="mt-4">
+        <button type="submit" class="btn btn-danger">Delete</button>
+      </form>
+    <% } else { %>
+      <p>Book not found.</p>
+    <% } %>
+  </div>
+</body>
+</html>

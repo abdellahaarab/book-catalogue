@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Book List</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+  <div class="container">
+    <h1 class="mt-4">Book List</h1>
+    <% if (books && books.length > 0) { %>
+      <ul class="list-group mt-4">
+        <% books.forEach((book) => { %>
+          <li class="list-group-item"><a href="/books/<%= book._id %>"><%= book.title %></a></li>
+        <% }); %>
+      </ul>
+    <% } else { %>
+      <p>No books found.</p>
+    <% } %>
+    <a href="/books/new" class="btn btn-primary mt-4">Add New Book</a>
+  </div>
+</body>
+</html>
