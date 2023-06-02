@@ -44,6 +44,7 @@ exports.loginUser = async (req, res, next) => {
     // req.user = user;
     // userMiddleware(req, res, next);
     // res.render('new');
+    
     // res.render('done',{ 'message':'User logged in successfully' });
     
   // } catch (error) {
