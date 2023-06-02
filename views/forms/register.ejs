@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Register</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css">
+</head>
+<body>
+  <div class="container mt-5">
+    <h1>Register</h1>
+    <form method="POST" action="/register">
+      <div class="mb-3">
+        <label for="username" class="form-label">Username</label>
+        <input type="text" class="form-control" id="username" name="username" required>
+      </div>
+      <div class="mb-3">
+        <label for="password" class="form-label">Password</label>
+        <input type="password" class="form-control" id="password" name="password" required>
+      </div>
+      <!-- Uncomment the following code if you want to include additional fields -->
+      <!-- <div class="mb-3">
+        <label for="confirmePassword" class="form-label">Confirm Password</label>
+        <input type="password" class="form-control" id="confirmePassword" name="confirmePassword" required>
+      </div>
+      <div class="mb-3">
+        <label for="email" class="form-label">Email</label>
+        <input type="email" class="form-control" id="email" name="email" required>
+      </div> -->
+      <button type="submit" class="btn btn-primary">Register</button>
+      <p class="mt-3">Already have an account? <a href="/login">Login here</a></p>
+    </form>
+  </div>
+</body>
+</html>

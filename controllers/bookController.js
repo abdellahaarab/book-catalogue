@@ -18,6 +18,7 @@ const upload = multer({ storage : storage }) ;
 
 module.exports = {
   getAllBooks(req, res) {
+    const user = req.user;
     Book.find({})
       .then((books) => {
         res.render('index',{ books });
@@ -30,6 +31,7 @@ module.exports = {
   },
 
   getBookById(req, res) {
+    const user = req.user;
     const id = req.params.id;
     Book.findById(id)
       .then((book) => {

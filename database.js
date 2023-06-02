@@ -1,4 +1,8 @@
 const mongoose = require('mongoose');
+// const secretKey = process.env.MY_SECRET_KEY;
+// const dbHost = process.env.DB_HOST;
+// const dbPort = process.env.DB_PORT;
+
 
 const connectToDatabase = () => {
   mongoose.connect('mongodb://127.0.0.1:27017/books_data', {
