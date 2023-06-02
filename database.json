@@ -1,0 +1,33 @@
+[{
+  "_id": {
+    "$oid": "6479419d550040688b8350ce"
+  },
+  "title": "La veille technologique",
+  "author": "Abdellah Aarab",
+  "image": "https://www.kbcrawl.com/wp-content/uploads/2019/01/les-objectifs-de-la-veille-technologique-300x300.jpg",
+  "file": "uploads\\La veille technologique.pdf",
+  "description": "La veille technologique désigne la pratique de se tenir informé des dernières avancées et\r\ndéveloppements dans le domaine de la technologie. Cela implique de surveiller les nouvelles\r\ntechnologies, les tendances émergentes, les innovations, les brevets, les publications scientifiques et\r\nles événements pertinents. L'objectif de la veille technologique est de rester à jour sur les avancées\r\ntechnologiques afin de mieux comprendre leur impact potentiel et de prendre des décisions éclairées\r\npour les entreprises, les organisations ou les individus.",
+  "publicationDate": {
+    "$date": "2023-06-02T00:00:00.000Z"
+  },
+  "pageCount": 5,
+  "createdAt": {
+    "$date": "2023-06-02T01:10:53.011Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "647945d22184e39c00297bee"
+  },
+  "title": "test",
+  "author": "test",
+  "image": "https://user-images.githubusercontent.com/33935506/33653545-0f6d5828-da76-11e7-8a3c-a72bc732ad4f.PNG",
+  "file": "uploads\\text.txt",
+  "description": "test",
+  "publicationDate": null,
+  "pageCount": 1,
+  "createdAt": {
+    "$date": "2023-06-02T01:28:50.302Z"
+  },
+  "__v": 0
+}]
